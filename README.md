@@ -1,5 +1,5 @@
 # VeriYapilariveAlgoritmalarProje
-# Insertion Sort Projesi1
+# Insertion Sort Projesi 1
 [22,27,16,2,18,6] -> Insertion Sort
 
 - 1-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
@@ -40,7 +40,7 @@
  [3,5,7|,8,2,9,4,15,6]
  [3,5,7,8|,2,9,4,15,6]
  ```
- # Merge Sort Projesi2
+ # Merge Sort Projesi 2
  [16,21,11,8,12,22] -> Merge Sort
 
 - 1-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
