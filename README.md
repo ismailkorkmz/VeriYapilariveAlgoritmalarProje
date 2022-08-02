@@ -1,5 +1,5 @@
-# VeriYapilariveAlgoritmalarProje1
-# Insertion Sort Projesi
+# VeriYapilariveAlgoritmalarProje
+# Insertion Sort Projesi1
 [22,27,16,2,18,6] -> Insertion Sort
 
 - 1-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
@@ -40,6 +40,36 @@
  [3,5,7|,8,2,9,4,15,6]
  [3,5,7,8|,2,9,4,15,6]
  ```
+ # Merge Sort Projesi2
+ [16,21,11,8,12,22] -> Merge Sort
+
+- 1-Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+- 2-Big-O gösterimini yazınız.
+
+ ## 1- Merge Sort Aşamaları
+ ```
+ [16,21,11,8,12,22] ilk önce sayı dizisini ikiye böleriz.
+ - [16,21,11]   [8,12,22]
+ Tekrardan dizileri bir daha ikiye böleriz ve tek hücre kalana kadar.
+ - [16,21]   [11]   [8,12]   [22]
+
+ - [16] [21] [11]   [8] [12] [22]
+ Her diziyi kendi içinde sıralarız.
+ - [16,21]   [11]   [8,12]   [22]
+ Şimdi ise ikili olarak sıraya uygun bir şekilde diziler birleştirilir.
+ - [11,16,21]   [8,12,22]
+ Diziler uygun bir şekilde bir kez daha birleştirilir ve sıralanır.
+ - [8,11,12,16,21,22]
+ ```
+ ## 2- Big O Notation Gösterimi
+ ```
+ Worst case   : O(n*logn)
+ Average case : O(n*logn)
+ Best case    : O(n*logn)
+ ```
+ 
+ 
+ 
 www.patika.dev
 
  
